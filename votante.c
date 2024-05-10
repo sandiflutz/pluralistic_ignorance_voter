@@ -1,12 +1,12 @@
 /***************************************************************************************************************************************************** 
- *           -This program was to explore pluralistic ignorance.                                                                                     *
- *           -This program simulates a voter model with concealed opinions (public and private opinions=external and internal opinions).             *  
+ *           -This program was made to explore pluralistic ignorance.                                                                                *
+ *           -It simulates a voter model with concealed opinions (public and private opinions = external and internal opinions).                     *  
  *           -The networks used here are: well-mixed with groups and square lattice.                                                                 *
  *           -There are 2 possible opinions: 0 (lack of action, for external states, or lack of intention to act, for internal states) or            *
- *           1 (action, for external states, or intention, for internal states).                                                                     *
+ *            1 (action, for external states, or intention, for internal states).                                                                    *
  *           -The dynamics consists of imitation, externalization of internal opinions and internalization of external opinions events               *
  *           -Agents have a memory of length T_mem. In the internalization events, they internalize the most frequent external state they chose      *
- *           in their last T_mem oportunities                                                                                                        *    
+ *            in their last T_mem oportunities                                                                                                        *    
  *****************************************************************************************************************************************************/
 
 
@@ -21,7 +21,7 @@
 #define L                  22  /*square lattice linear size*/
 #define N                  (L*L)/*square lattice size*/
 #define VIZ                20   /*number of nearest neighbors each agent has (lattice version)*/
-#define Gsize              20   /*number of agents in each group (well mixed version)*/
+#define Gsize              20   /*number of agents in each group (well-mixed version)*/
 #define Pint               0.01 /*probability of internalizing an external opinion*/
 #define Pcp                0.5/*probability of copying the majorities strategy*/
 #define GAMMA              0.7 /*exponent for the probability of copying the external opinion 1*/
